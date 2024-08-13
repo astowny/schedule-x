@@ -113,9 +113,9 @@ export default function CalendarHeader() {
             <div data-ccid={headerContentLeftPrependId} />
           )}
           <TodayButton />
-          {!$app.calendarState.isCalendarSmall.value && (
-            <ForwardBackwardNavigation />
-          )}
+          {/* {!$app.calendarState.isCalendarSmall.value && ( */}
+          <ForwardBackwardNavigation />
+          {/* )} */}
           <RangeHeading />
           {headerContentLeftAppendId && (
             <div data-ccid={headerContentLeftAppendId} />
