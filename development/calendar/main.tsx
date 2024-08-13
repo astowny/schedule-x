@@ -5,7 +5,7 @@ import '@fontsource/open-sans/500-italic.css'
 import '@fontsource/open-sans/700.css'
 import '@fontsource/open-sans/700-italic.css'
 import '@fontsource/roboto-condensed'
-import { createCalendar } from '@schedule-x/calendar/src'
+import { createCalendar } from '@holitime/schedule-x-calendar/src'
 import '../../packages/theme-default/src/calendar.scss'
 import '../app.css'
 import { createDragAndDropPlugin } from '@schedule-x/drag-and-drop/src'
@@ -24,10 +24,10 @@ import { createSidebarPlugin } from '../../packages/sidebar/src/sidebar-plugin.i
 import { createHeaderPlugin } from '../../packages/header/src'
 import { Component } from 'preact'
 // import Sidebar from '../../packages/sidebar/src/sidebar.tsx'
-import { createViewMonthGrid } from '@schedule-x/calendar/src/views/month-grid'
-import { createViewWeek } from '@schedule-x/calendar/src/views/week'
-import { createViewDay } from '@schedule-x/calendar/src/views/day'
-import { createViewMonthAgenda } from '@schedule-x/calendar/src/views/month-agenda'
+import { createViewMonthGrid } from '@holitime/schedule-x-calendar/src/views/month-grid'
+import { createViewWeek } from '@holitime/schedule-x-calendar/src/views/week'
+import { createViewDay } from '@holitime/schedule-x-calendar/src/views/day'
+import { createViewMonthAgenda } from '@holitime/schedule-x-calendar/src/views/month-agenda'
 
 const calendarElement = document.getElementById('calendar') as HTMLElement
 
