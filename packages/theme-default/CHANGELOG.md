@@ -32,6 +32,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **sidebar plugin:** add sidebar plugin ([1069163](https://github.com/schedule-x/schedule-x/commit/10691635ad7460d105c6b8821ee393c5605c1e8b))
 - **sidebar plugin:** fix scroll behaviour for calendar ([3132284](https://github.com/schedule-x/schedule-x/commit/3132284eb43be238509df8c9a5a819c02107601a))
 - **sidebar plugin:** fix scroll behaviour for calendar ([f9d3e81](https://github.com/schedule-x/schedule-x/commit/f9d3e81712ab81e254674feafbcaa53ccfcf8f9b))
+## [1.58.1-alpha.0](https://github.com/schedule-x/schedule-x/compare/v1.58.0...v1.58.1-alpha.0) (2024-08-09)
+
+**Note:** Version bump only for package @schedule-x/theme-default
+
+# [1.58.0](https://github.com/schedule-x/schedule-x/compare/v1.57.1...v1.58.0) (2024-08-09)
+
+**Note:** Version bump only for package @schedule-x/theme-default
+
 ## [1.57.1](https://github.com/schedule-x/schedule-x/compare/v1.57.0...v1.57.1) (2024-08-02)
 
 **Note:** Version bump only for package @schedule-x/theme-default

@@ -2,7 +2,8 @@
 
 [![Build Status](https://github.com/schedule-x/schedule-x/actions/workflows/build-library.yml/badge.svg)](https://github.com/schedule-x/schedule-x/actions/workflows/build-library.yml)
 [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true)](https://discord.gg/yHbT3C4M8w)
-![npm](https://img.shields.io/npm/dm/@schedule-x/calendar)
+[![npm](https://img.shields.io/npm/dm/@schedule-x/calendar)](https://www.npmjs.com/package/@schedule-x/calendar)
+[![X](https://img.shields.io/twitter/url?url=https://x.com/ScheduleX_&label=Follow%20on%20X)](https://x.com/ScheduleX_)
 
 # Disclaimer
 
@@ -11,8 +12,9 @@ I have started from the repository of TomOsterlund and this customized package i
 # Material design calendar and date picker
 
 This library offers a material design calendar and date picker for the web. They can be used regardless of your
-framework preferences, since they are built around a lightweight virtual-DOM implementation. The library also offers 
-adapter components for React, Vue and Angular.
+stack, and there are components for the following frameworks:
+
+[React](https://schedule-x.dev/docs/frameworks/react) | [Angular](https://schedule-x.dev/docs/frameworks/angular) | [Vue](https://schedule-x.dev/docs/frameworks/vue) | [Svelte](https://schedule-x.dev/docs/frameworks/svelte) | [Preact](https://schedule-x.dev/docs/frameworks/preact)
 
 Website for documentation and demo: https://schedule-x.dev/
 

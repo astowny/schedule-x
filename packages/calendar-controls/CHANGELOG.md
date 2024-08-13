@@ -13,6 +13,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 - **types:** add export types ([0280903](https://github.com/schedule-x/schedule-x/commit/02809035b4b0f8600fe24f753b947a4d8a6f59aa))
+## [1.58.1-alpha.0](https://github.com/schedule-x/schedule-x/compare/v1.58.0...v1.58.1-alpha.0) (2024-08-09)
+
+**Note:** Version bump only for package @schedule-x/calendar-controls
+
+# [1.58.0](https://github.com/schedule-x/schedule-x/compare/v1.57.1...v1.58.0) (2024-08-09)
+
+**Note:** Version bump only for package @schedule-x/calendar-controls
 
 ## [1.57.1](https://github.com/schedule-x/schedule-x/compare/v1.57.0...v1.57.1) (2024-08-02)
 
