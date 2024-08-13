@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'preact/hooks'
-import { randomStringId } from '@schedule-x/shared/src/utils/stateless/strings/random'
-import { EventModalProps } from '@schedule-x/shared/src/interfaces/event-modal/event-modal.plugin'
+import { randomStringId } from '@holitime/schedule-x-shared/src/utils/stateless/strings/random'
+import { EventModalProps } from '@holitime/schedule-x-shared/src/interfaces/event-modal/event-modal.plugin'
 import { Fragment } from 'preact/jsx-runtime'
 
 export default function Sidebar({ $app }: EventModalProps) {

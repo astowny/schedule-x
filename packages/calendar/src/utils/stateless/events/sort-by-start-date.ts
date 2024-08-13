@@ -1,5 +1,5 @@
-import { CalendarEventInternal } from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
-import { dateFromDateTime } from '@schedule-x/shared/src/utils/stateless/time/format-conversion/string-to-string'
+import { CalendarEventInternal } from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-event.interface'
+import { dateFromDateTime } from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/string-to-string'
 
 export const sortEventsByStartAndEnd = (
   a: CalendarEventInternal,

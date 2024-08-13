@@ -5,10 +5,10 @@ import {
   rruleJSToString,
   rruleStringToJS,
 } from '../parsers/rrule/parse-rrule'
-import { dateTimeStringRegex } from '@schedule-x/shared/src/utils/stateless/time/validation/regex'
+import { dateTimeStringRegex } from '@holitime/schedule-x-shared/src/utils/stateless/time/validation/regex'
 import { getDurationInMinutes } from '../rrule/utils/stateless/duration-in-minutes'
-import { calculateDaysDifference } from '@schedule-x/shared/src/utils/stateless/time/days-difference'
-import { addDays, addMinutes } from '@schedule-x/shared/src'
+import { calculateDaysDifference } from '@holitime/schedule-x-shared/src/utils/stateless/time/days-difference'
+import { addDays, addMinutes } from '@holitime/schedule-x-shared/src'
 import { RRule } from '../rrule/rrule'
 import { Recurrence } from '../types/recurrence'
 import { RRuleOptionsExternal } from '../rrule/types/rrule-options'

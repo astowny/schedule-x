@@ -1,4 +1,4 @@
-import { CalendarEventInternal } from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
+import { CalendarEventInternal } from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-event.interface'
 
 export const handleEventConcurrency = (
   sortedEvents: CalendarEventInternal[],

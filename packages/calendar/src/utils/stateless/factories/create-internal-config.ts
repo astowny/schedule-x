@@ -1,4 +1,4 @@
-import { CalendarConfigExternal } from '@schedule-x/shared/src/interfaces/calendar/calendar-config'
+import { CalendarConfigExternal } from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-config'
 import CalendarConfigBuilder from '../../stateful/config/calendar-config.builder'
 
 export const createInternalConfig = (config: CalendarConfigExternal) => {

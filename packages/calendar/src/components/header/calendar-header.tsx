@@ -8,9 +8,9 @@ import hideSidePanelIcon from './hide_sidebar_horizontal_icon_128227.svg'
 import showSidePanelIcon from './show_sidebar_horizontal_icon_128225.svg'
 // import changeIcon from './change_icon.svg'
 import calendarIcon from './calendar_icon.svg'
-import { randomStringId } from '@schedule-x/shared/src'
+import { randomStringId } from '@holitime/schedule-x-shared/src'
 import { getElementByCCID } from '../../utils/stateless/dom/getters'
-// import DatePickerAppSingletonBuilder from '@schedule-x/shared/src/utils/stateful/date-picker/app-singleton/date-picker-app-singleton.builder'
+// import DatePickerAppSingletonBuilder from '@holitime/schedule-x-shared/src/utils/stateful/date-picker/app-singleton/date-picker-app-singleton.builder'
 export default function CalendarHeader() {
   const $app = useContext(AppContext)
   const [isOpen, setIsOpen] = useState(false)

@@ -1,6 +1,6 @@
-import { PluginName } from '@schedule-x/shared/src/enums/plugin-name.enum'
+import { PluginName } from '@holitime/schedule-x-shared/src/enums/plugin-name.enum'
 import Sidebar from './sidebar'
-import SidebarPlugin from '@schedule-x/shared/src/interfaces/calendar/calendar-sidebar.interface'
+import SidebarPlugin from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-sidebar.interface'
 import { signal } from '@preact/signals'
 
 export const createSidebarPlugin = () // setIsOpen: (value: boolean) => void

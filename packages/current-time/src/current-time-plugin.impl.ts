@@ -1,12 +1,12 @@
 import CurrentTimePlugin, {
   CurrentTimePluginConfig,
-} from '@schedule-x/shared/src/interfaces/current-time/current-time-plugin.interface'
-import { CalendarAppSingleton } from '@schedule-x/shared/src'
+} from '@holitime/schedule-x-shared/src/interfaces/current-time/current-time-plugin.interface'
+import { CalendarAppSingleton } from '@holitime/schedule-x-shared/src'
 import {
   toDateString,
   toDateTimeString,
-} from '@schedule-x/shared/src/utils/stateless/time/format-conversion/date-to-strings'
-import { getYCoordinateInTimeGrid } from '@schedule-x/shared/src/utils/stateless/calendar/get-y-coordinate-in-time-grid'
+} from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/date-to-strings'
+import { getYCoordinateInTimeGrid } from '@holitime/schedule-x-shared/src/utils/stateless/calendar/get-y-coordinate-in-time-grid'
 
 class CurrentTimePluginImpl implements CurrentTimePlugin {
   name = 'current-time-plugin'

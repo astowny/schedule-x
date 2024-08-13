@@ -1,9 +1,9 @@
-import { toJSDate } from '@schedule-x/shared/src/utils/stateless/time/format-conversion/format-conversion'
-import { toDateString } from '@schedule-x/shared/src/utils/stateless/time/format-conversion/date-to-strings'
+import { toJSDate } from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/format-conversion'
+import { toDateString } from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/date-to-strings'
 import { Week } from '../../../../types/week'
-import CalendarAppSingleton from '@schedule-x/shared/src/interfaces/calendar/calendar-app-singleton'
-import { DateRange } from '@schedule-x/shared/src/types/date-range'
-import { InternalViewName } from '@schedule-x/shared/src/enums/calendar/internal-view.enum'
+import CalendarAppSingleton from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-app-singleton'
+import { DateRange } from '@holitime/schedule-x-shared/src/types/date-range'
+import { InternalViewName } from '@holitime/schedule-x-shared/src/enums/calendar/internal-view.enum'
 
 const createOneDay = (week: Week, date: Date) => {
   const dateString = toDateString(date)

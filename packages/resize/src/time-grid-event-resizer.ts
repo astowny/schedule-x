@@ -1,8 +1,8 @@
-import { CalendarAppSingleton } from '@schedule-x/shared/src'
-import { CalendarEventInternal } from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
-import { getTimePointsPerPixel } from '@schedule-x/shared/src/utils/stateless/calendar/time-points-per-pixel'
-import { DayBoundariesDateTime } from '@schedule-x/shared/src/types/day-boundaries-date-time'
-import { addTimePointsToDateTime } from '@schedule-x/shared/src/utils/stateless/time/time-points/string-conversion'
+import { CalendarAppSingleton } from '@holitime/schedule-x-shared/src'
+import { CalendarEventInternal } from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-event.interface'
+import { getTimePointsPerPixel } from '@holitime/schedule-x-shared/src/utils/stateless/calendar/time-points-per-pixel'
+import { DayBoundariesDateTime } from '@holitime/schedule-x-shared/src/types/day-boundaries-date-time'
+import { addTimePointsToDateTime } from '@holitime/schedule-x-shared/src/utils/stateless/time/time-points/string-conversion'
 import { updateEventsList } from './utils/stateless/update-events-list'
 
 export class TimeGridEventResizer {

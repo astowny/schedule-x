@@ -1,11 +1,11 @@
-import { DatePickerConfigExternal } from '@schedule-x/shared/src/interfaces/date-picker/config.interface'
+import { DatePickerConfigExternal } from '@holitime/schedule-x-shared/src/interfaces/date-picker/config.interface'
 import DatePickerApp from './date-picker.app'
-import TimeUnitsBuilder from '@schedule-x/shared/src/utils/stateful/time-units/time-units.builder'
-import DatePickerAppSingleton from '@schedule-x/shared/src/interfaces/date-picker/date-picker-app.singleton'
+import TimeUnitsBuilder from '@holitime/schedule-x-shared/src/utils/stateful/time-units/time-units.builder'
+import DatePickerAppSingleton from '@holitime/schedule-x-shared/src/interfaces/date-picker/date-picker-app.singleton'
 import { createDatePickerState } from './utils/stateful/date-picker-state/date-picker-state.impl'
 import DatePickerAppSingletonBuilder from '../../shared/src/utils/stateful/date-picker/app-singleton/date-picker-app-singleton.builder'
 import { ConfigBuilder } from './utils/stateful/config/config.builder'
-import { Placement } from '@schedule-x/shared/src/interfaces/date-picker/placement.enum'
+import { Placement } from '@holitime/schedule-x-shared/src/interfaces/date-picker/placement.enum'
 import { translations, translate } from '../../translations/src'
 
 export const createAppSingleton = (config: DatePickerConfigExternal = {}) => {

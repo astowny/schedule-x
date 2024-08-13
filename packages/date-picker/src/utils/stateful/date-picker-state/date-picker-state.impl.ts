@@ -1,9 +1,9 @@
-import DatePickerState from '@schedule-x/shared/src/interfaces/date-picker/date-picker-state.interface'
-import { DatePickerView } from '@schedule-x/shared/src/interfaces/date-picker/date-picker-view.enum'
+import DatePickerState from '@holitime/schedule-x-shared/src/interfaces/date-picker/date-picker-state.interface'
+import { DatePickerView } from '@holitime/schedule-x-shared/src/interfaces/date-picker/date-picker-view.enum'
 import { effect, signal } from '@preact/signals'
-import { toDateString as formatToDateString } from '@schedule-x/shared/src/utils/stateless/time/format-conversion/date-format/to-date-string'
-import { toDateString as dateToDateString } from '@schedule-x/shared/src/utils/stateless/time/format-conversion/date-to-strings'
-import DatePickerConfigInternal from '@schedule-x/shared/src/interfaces/date-picker/config.interface'
+import { toDateString as formatToDateString } from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/date-format/to-date-string'
+import { toDateString as dateToDateString } from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/date-to-strings'
+import DatePickerConfigInternal from '@holitime/schedule-x-shared/src/interfaces/date-picker/config.interface'
 
 export const createDatePickerState = (
   config: DatePickerConfigInternal,

@@ -1,22 +1,22 @@
 /* eslint-disable max-lines */
-import Builder from '@schedule-x/shared/src/interfaces/builder.interface'
+import Builder from '@holitime/schedule-x-shared/src/interfaces/builder.interface'
 import CalendarConfigInternal, {
   CalendarType,
   MonthGridOptions,
   Plugins,
   WeekOptions,
-} from '@schedule-x/shared/src/interfaces/calendar/calendar-config'
+} from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-config'
 import CalendarConfigImpl from './calendar-config.impl'
-import { WeekDay } from '@schedule-x/shared/src/enums/time/week-day.enum'
-import { ViewName } from '@schedule-x/shared/src/types/calendar/view-name'
-import { View } from '@schedule-x/shared/src/types/calendar/view'
+import { WeekDay } from '@holitime/schedule-x-shared/src/enums/time/week-day.enum'
+import { ViewName } from '@holitime/schedule-x-shared/src/types/calendar/view-name'
+import { View } from '@holitime/schedule-x-shared/src/types/calendar/view'
 import {
   DayBoundariesExternal,
   DayBoundariesInternal,
-} from '@schedule-x/shared/src/types/calendar/day-boundaries'
-import { timePointsFromString } from '@schedule-x/shared/src/utils/stateless/time/time-points/string-conversion'
-import PluginBase from '@schedule-x/shared/src/interfaces/plugin.interface'
-import { CalendarCallbacks } from '@schedule-x/shared/src/interfaces/calendar/listeners.interface'
+} from '@holitime/schedule-x-shared/src/types/calendar/day-boundaries'
+import { timePointsFromString } from '@holitime/schedule-x-shared/src/utils/stateless/time/time-points/string-conversion'
+import PluginBase from '@holitime/schedule-x-shared/src/interfaces/plugin.interface'
+import { CalendarCallbacks } from '@holitime/schedule-x-shared/src/interfaces/calendar/listeners.interface'
 import { DEFAULT_WEEK_GRID_HEIGHT } from '../../../constants'
 
 export default class CalendarConfigBuilder

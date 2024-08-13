@@ -35,6 +35,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **view selection:** add custom toggle view selection ([a87f563](https://github.com/schedule-x/schedule-x/commit/a87f563fd95c880bb96d44ddfb350a34c00087ce))
 - **workflow:** build 1.30 custom packages ([157a472](https://github.com/schedule-x/schedule-x/commit/157a472158f14a09a5852e71ac7bfebbac49943a))
 - **workflow:** build 1.31 and 1.32 publish export sidebar lgin interface ([95b4b55](https://github.com/schedule-x/schedule-x/commit/95b4b559d70bbfc8c00ad687bf88f084ae9f08f5))
+
 ## [1.58.1-alpha.0](https://github.com/schedule-x/schedule-x/compare/v1.58.0...v1.58.1-alpha.0) (2024-08-09)
 
 ### Bug Fixes

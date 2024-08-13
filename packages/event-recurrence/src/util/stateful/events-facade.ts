@@ -1,8 +1,8 @@
-import EventsFacade from '@schedule-x/shared/src/utils/stateful/events-facade/events-facade.interface'
-import CalendarEventExternal from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
-import { EventId } from '@schedule-x/shared/src/types/event-id'
-import { CalendarAppSingleton } from '@schedule-x/shared/src'
-import { externalEventToInternal } from '@schedule-x/shared/src/utils/stateless/calendar/external-event-to-internal'
+import EventsFacade from '@holitime/schedule-x-shared/src/utils/stateful/events-facade/events-facade.interface'
+import CalendarEventExternal from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-event.interface'
+import { EventId } from '@holitime/schedule-x-shared/src/types/event-id'
+import { CalendarAppSingleton } from '@holitime/schedule-x-shared/src'
+import { externalEventToInternal } from '@holitime/schedule-x-shared/src/utils/stateless/calendar/external-event-to-internal'
 import { createRecurrencesForEvent } from '../stateless/create-recurrences-for-event'
 import { AugmentedEvent } from '../../types/augmented-event'
 

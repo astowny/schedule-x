@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-import { CalendarEventInternal } from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
+import { CalendarEventInternal } from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-event.interface'
 import {
   getBorderRule,
   getEventHeight,
@@ -8,22 +8,22 @@ import {
 } from '../../utils/stateless/events/event-styles'
 import { StateUpdater, useContext, useEffect } from 'preact/hooks'
 import { AppContext } from '../../utils/stateful/app-context'
-import { toJSDate } from '@schedule-x/shared/src/utils/stateless/time/format-conversion/format-conversion'
-import UserIcon from '@schedule-x/shared/src/components/icons/user-icon'
-import TimeIcon from '@schedule-x/shared/src/components/icons/time-icon'
-import { deepCloneEvent } from '@schedule-x/shared/src/utils/stateless/calendar/deep-clone-event'
-import { DayBoundariesDateTime } from '@schedule-x/shared/src/types/day-boundaries-date-time'
-import { getTimeGridEventCopyElementId } from '@schedule-x/shared/src/utils/stateless/strings/selector-generators'
+import { toJSDate } from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/format-conversion'
+import UserIcon from '@holitime/schedule-x-shared/src/components/icons/user-icon'
+import TimeIcon from '@holitime/schedule-x-shared/src/components/icons/time-icon'
+import { deepCloneEvent } from '@holitime/schedule-x-shared/src/utils/stateless/calendar/deep-clone-event'
+import { DayBoundariesDateTime } from '@holitime/schedule-x-shared/src/types/day-boundaries-date-time'
+import { getTimeGridEventCopyElementId } from '@holitime/schedule-x-shared/src/utils/stateless/strings/selector-generators'
 import useEventInteractions from '../../utils/stateful/hooks/use-event-interactions'
-import { concatenatePeople } from '@schedule-x/shared/src/utils/stateless/strings/concatenate-people'
+import { concatenatePeople } from '@holitime/schedule-x-shared/src/utils/stateless/strings/concatenate-people'
 import { Fragment } from 'preact'
 import { getCCID } from './time-grid-event-utils'
 import { getElementByCCID } from '../../utils/stateless/dom/getters'
 import { invokeOnEventClickCallback } from '../../utils/stateless/events/invoke-on-event-click-callback'
-import { getEventCoordinates } from '@schedule-x/shared/src/utils/stateless/dom/get-event-coordinates'
-import { isUIEventTouchEvent } from '@schedule-x/shared/src/utils/stateless/dom/is-touch-event'
-import { getYCoordinateInTimeGrid } from '@schedule-x/shared/src/utils/stateless/calendar/get-y-coordinate-in-time-grid'
-import { nextTick } from '@schedule-x/shared/src/utils/stateless/next-tick'
+import { getEventCoordinates } from '@holitime/schedule-x-shared/src/utils/stateless/dom/get-event-coordinates'
+import { isUIEventTouchEvent } from '@holitime/schedule-x-shared/src/utils/stateless/dom/is-touch-event'
+import { getYCoordinateInTimeGrid } from '@holitime/schedule-x-shared/src/utils/stateless/calendar/get-y-coordinate-in-time-grid'
+import { nextTick } from '@holitime/schedule-x-shared/src/utils/stateless/next-tick'
 
 type props = {
   calendarEvent: CalendarEventInternal

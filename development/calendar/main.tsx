@@ -5,9 +5,7 @@ import '@fontsource/open-sans/500-italic.css'
 import '@fontsource/open-sans/700.css'
 import '@fontsource/open-sans/700-italic.css'
 import '@fontsource/roboto-condensed'
-import {
-  createCalendar,
-} from '@schedule-x/calendar/src'
+import { createCalendar } from '@schedule-x/calendar/src'
 import '../../packages/theme-default/src/calendar.scss'
 import '../app.css'
 import { createDragAndDropPlugin } from '@schedule-x/drag-and-drop/src'
@@ -20,7 +18,7 @@ import {
   createEventsServicePlugin,
 } from '@schedule-x/event-recurrence/src'
 import { createCalendarControlsPlugin } from '../../packages/calendar-controls/src'
-import { CalendarAppSingleton } from '@schedule-x/shared/src'
+import { CalendarAppSingleton } from '@holitime/schedule-x-shared/src'
 import { createCurrentTimePlugin } from '../../packages/current-time/src/current-time-plugin.impl.ts'
 import { createSidebarPlugin } from '../../packages/sidebar/src/sidebar-plugin.impl.ts'
 import { createHeaderPlugin } from '../../packages/header/src'
@@ -106,7 +104,12 @@ const calendar = createCalendar({
   // locale: 'cs-CZ',
   // locale: 'et-EE',
   locale: 'ca-ES',
-  views: [createViewMonthGrid(), createViewWeek(), createViewDay(), createViewMonthAgenda()],
+  views: [
+    createViewMonthGrid(),
+    createViewWeek(),
+    createViewDay(),
+    createViewMonthAgenda(),
+  ],
   // defaultView: viewWeek.name,
   // minDate: '2024-01-01',
   // maxDate: '2024-03-31',

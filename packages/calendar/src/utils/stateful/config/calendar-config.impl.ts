@@ -2,18 +2,18 @@ import CalendarConfigInternal, {
   CalendarType,
   MonthGridOptions,
   WeekOptions,
-} from '@schedule-x/shared/src/interfaces/calendar/calendar-config'
-import { WeekDay } from '@schedule-x/shared/src/enums/time/week-day.enum'
+} from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-config'
+import { WeekDay } from '@holitime/schedule-x-shared/src/enums/time/week-day.enum'
 import {
   DEFAULT_FIRST_DAY_OF_WEEK,
   DEFAULT_LOCALE,
-} from '@schedule-x/shared/src/values'
-import { ViewName } from '@schedule-x/shared/src/types/calendar/view-name'
-import { InternalViewName } from '@schedule-x/shared/src/enums/calendar/internal-view.enum'
-import { View } from '@schedule-x/shared/src/types/calendar/view'
-import { DayBoundariesInternal } from '@schedule-x/shared/src/types/calendar/day-boundaries'
+} from '@holitime/schedule-x-shared/src/values'
+import { ViewName } from '@holitime/schedule-x-shared/src/types/calendar/view-name'
+import { InternalViewName } from '@holitime/schedule-x-shared/src/enums/calendar/internal-view.enum'
+import { View } from '@holitime/schedule-x-shared/src/types/calendar/view'
+import { DayBoundariesInternal } from '@holitime/schedule-x-shared/src/types/calendar/day-boundaries'
 import { DEFAULT_DAY_BOUNDARIES } from '../../../constants'
-import { timePointsPerDay } from '@schedule-x/shared/src/utils/stateless/time/time-points/time-points-per-day'
+import { timePointsPerDay } from '@holitime/schedule-x-shared/src/utils/stateless/time/time-points/time-points-per-day'
 import { Signal, signal } from '@preact/signals'
 
 export default class CalendarConfigImpl implements CalendarConfigInternal {

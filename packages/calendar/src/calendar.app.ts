@@ -1,10 +1,10 @@
 import { createElement, render } from 'preact'
 import CalendarWrapper from './components/calendar-wrapper'
-import CalendarAppSingleton from '@schedule-x/shared/src/interfaces/calendar/calendar-app-singleton'
-import EventsFacade from '@schedule-x/shared/src/utils/stateful/events-facade/events-facade.interface'
-import EventsFacadeImpl from '@schedule-x/shared/src/utils/stateful/events-facade/events-facade.impl'
-import { CustomComponentFn } from '@schedule-x/shared/src/interfaces/calendar/calendar-config'
-import { CustomComponentFns } from '@schedule-x/shared/src/interfaces/calendar/custom-component-fns'
+import CalendarAppSingleton from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-app-singleton'
+import EventsFacade from '@holitime/schedule-x-shared/src/utils/stateful/events-facade/events-facade.interface'
+import EventsFacadeImpl from '@holitime/schedule-x-shared/src/utils/stateful/events-facade/events-facade.impl'
+import { CustomComponentFn } from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-config'
+import { CustomComponentFns } from '@holitime/schedule-x-shared/src/interfaces/calendar/custom-component-fns'
 import { beforeInitPlugins } from './utils/stateless/plugins-lifecycle'
 
 export default class CalendarApp {

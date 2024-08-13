@@ -3,7 +3,7 @@ import TimeInput from './time-input'
 import { AppContext } from '../utils/stateful/app-context'
 import { useContext, useRef } from 'preact/compat'
 import { useEffect, useState } from 'preact/hooks'
-import { getScrollableParents } from '@schedule-x/shared/src/utils/stateless/dom/scrolling'
+import { getScrollableParents } from '@holitime/schedule-x-shared/src/utils/stateless/dom/scrolling'
 import { convert12HourTo24HourTimeString } from '../utils/stateless/convert-time-strings'
 
 export default function AppPopup() {

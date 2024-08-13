@@ -1,5 +1,5 @@
 import { useState } from 'preact/hooks'
-import CalendarAppSingleton from '@schedule-x/shared/src/interfaces/calendar/calendar-app-singleton'
+import CalendarAppSingleton from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-app-singleton'
 import { useSignalEffect } from '@preact/signals'
 
 export default function useWrapperClasses($app: CalendarAppSingleton) {

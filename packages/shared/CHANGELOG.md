@@ -22,25 +22,26 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - **translation:** add lang ([015e7e9](https://github.com/schedule-x/schedule-x/commit/015e7e9060896f17db496062fb05ead835710f7e))
 - **workflow:** build 1.30 custom packages ([157a472](https://github.com/schedule-x/schedule-x/commit/157a472158f14a09a5852e71ac7bfebbac49943a))
 - **workflow:** build 1.31 and 1.32 publish export sidebar lgin interface ([95b4b55](https://github.com/schedule-x/schedule-x/commit/95b4b559d70bbfc8c00ad687bf88f084ae9f08f5))
+
 ## [1.58.1-alpha.0](https://github.com/schedule-x/schedule-x/compare/v1.58.0...v1.58.1-alpha.0) (2024-08-09)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.58.0](https://github.com/schedule-x/schedule-x/compare/v1.57.1...v1.58.0) (2024-08-09)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.57.1](https://github.com/schedule-x/schedule-x/compare/v1.57.0...v1.57.1) (2024-08-02)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.57.0](https://github.com/schedule-x/schedule-x/compare/v1.56.0...v1.57.0) (2024-08-01)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.56.0](https://github.com/schedule-x/schedule-x/compare/v1.55.0...v1.56.0) (2024-07-29)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.55.0](https://github.com/schedule-x/schedule-x/compare/v1.54.0...v1.55.0) (2024-07-27)
 
@@ -51,7 +52,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.54.0](https://github.com/schedule-x/schedule-x/compare/v1.53.0...v1.54.0) (2024-07-25)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.53.0](https://github.com/schedule-x/schedule-x/compare/v1.52.0...v1.53.0) (2024-07-20)
 
@@ -125,7 +126,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.46.5](https://github.com/schedule-x/schedule-x/compare/v1.46.4...v1.46.5) (2024-06-21)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.46.4](https://github.com/schedule-x/schedule-x/compare/v1.46.3...v1.46.4) (2024-06-18)
 
@@ -135,23 +136,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.46.3](https://github.com/schedule-x/schedule-x/compare/v1.46.2...v1.46.3) (2024-06-17)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.46.2](https://github.com/schedule-x/schedule-x/compare/v1.46.1...v1.46.2) (2024-06-17)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.46.1](https://github.com/schedule-x/schedule-x/compare/v1.46.0...v1.46.1) (2024-06-11)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.46.0](https://github.com/schedule-x/schedule-x/compare/v1.45.1...v1.46.0) (2024-06-10)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.45.1](https://github.com/schedule-x/schedule-x/compare/v1.45.0...v1.45.1) (2024-06-08)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.45.0](https://github.com/schedule-x/schedule-x/compare/v1.44.0...v1.45.0) (2024-06-06)
 
@@ -173,7 +174,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.43.0-alpha.0](https://github.com/schedule-x/schedule-x/compare/v1.42.3...v1.43.0-alpha.0) (2024-06-03)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.42.3](https://github.com/schedule-x/schedule-x/compare/v1.42.2...v1.42.3) (2024-05-31)
 
@@ -183,23 +184,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.42.2](https://github.com/schedule-x/schedule-x/compare/v1.42.1...v1.42.2) (2024-05-30)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.42.1](https://github.com/schedule-x/schedule-x/compare/v1.42.0...v1.42.1) (2024-05-24)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.42.0](https://github.com/schedule-x/schedule-x/compare/v1.41.2...v1.42.0) (2024-05-22)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.41.2](https://github.com/schedule-x/schedule-x/compare/v1.41.1...v1.41.2) (2024-05-17)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.41.1](https://github.com/schedule-x/schedule-x/compare/v1.41.0...v1.41.1) (2024-05-16)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.41.0](https://github.com/schedule-x/schedule-x/compare/v1.40.0...v1.41.0) (2024-05-11)
 
@@ -254,7 +255,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.33.0](https://github.com/schedule-x/schedule-x/compare/v1.32.0...v1.33.0) (2024-04-19)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.32.0](https://github.com/schedule-x/schedule-x/compare/v1.31.0...v1.32.0) (2024-04-15)
 
@@ -265,19 +266,19 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.31.0](https://github.com/schedule-x/schedule-x/compare/v1.30.1...v1.31.0) (2024-04-13)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.30.1](https://github.com/schedule-x/schedule-x/compare/v1.30.0...v1.30.1) (2024-04-08)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.30.0](https://github.com/schedule-x/schedule-x/compare/v1.29.1...v1.30.0) (2024-04-06)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.29.1](https://github.com/schedule-x/schedule-x/compare/v1.29.0...v1.29.1) (2024-04-05)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.29.0](https://github.com/schedule-x/schedule-x/compare/v1.28.0...v1.29.0) (2024-04-04)
 
@@ -293,11 +294,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.27.1](https://github.com/schedule-x/schedule-x/compare/v1.27.0...v1.27.1) (2024-04-01)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.27.0](https://github.com/schedule-x/schedule-x/compare/v1.26.0...v1.27.0) (2024-03-28)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.26.0](https://github.com/schedule-x/schedule-x/compare/v1.25.0...v1.26.0) (2024-03-28)
 
@@ -338,11 +339,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.20.0](https://github.com/schedule-x/schedule-x/compare/v1.19.0...v1.20.0) (2024-03-04)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.19.0](https://github.com/schedule-x/schedule-x/compare/v1.18.0...v1.19.0) (2024-02-28)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.18.0](https://github.com/schedule-x/schedule-x/compare/v1.17.1...v1.18.0) (2024-02-23)
 
@@ -352,7 +353,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.17.1](https://github.com/schedule-x/schedule-x/compare/v1.17.0...v1.17.1) (2024-02-17)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.17.0](https://github.com/schedule-x/schedule-x/compare/v1.16.0...v1.17.0) (2024-02-10)
 
@@ -362,7 +363,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.16.0](https://github.com/schedule-x/schedule-x/compare/v1.15.0...v1.16.0) (2024-02-09)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.15.0](https://github.com/schedule-x/schedule-x/compare/v1.14.0...v1.15.0) (2024-02-06)
 
@@ -372,7 +373,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.14.0](https://github.com/schedule-x/schedule-x/compare/v1.13.0...v1.14.0) (2024-02-05)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.13.0](https://github.com/schedule-x/schedule-x/compare/v1.12.2...v1.13.0) (2024-02-05)
 
@@ -384,11 +385,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.12.2](https://github.com/schedule-x/schedule-x/compare/v1.12.1...v1.12.2) (2024-02-02)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 ## [1.12.1](https://github.com/schedule-x/schedule-x/compare/v1.12.0...v1.12.1) (2024-01-29)
 
-**Note:** Version bump only for package @schedule-x/shared
+**Note:** Version bump only for package @holitime/schedule-x-shared
 
 # [1.12.0](https://github.com/schedule-x/schedule-x/compare/v1.11.0...v1.12.0) (2024-01-27)
 

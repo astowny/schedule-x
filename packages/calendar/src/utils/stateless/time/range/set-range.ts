@@ -1,16 +1,16 @@
-import CalendarConfigInternal from '@schedule-x/shared/src/interfaces/calendar/calendar-config'
+import CalendarConfigInternal from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-config'
 import {
   toIntegers,
   toJSDate,
-} from '@schedule-x/shared/src/utils/stateless/time/format-conversion/format-conversion'
-import { timeStringFromTimePoints } from '@schedule-x/shared/src/utils/stateless/time/time-points/string-conversion'
+} from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/format-conversion'
+import { timeStringFromTimePoints } from '@holitime/schedule-x-shared/src/utils/stateless/time/time-points/string-conversion'
 import {
   toDateString,
   toDateTimeString,
-} from '@schedule-x/shared/src/utils/stateless/time/format-conversion/date-to-strings'
-import { addDays } from '@schedule-x/shared/src/utils/stateless/time/date-time-mutation/adding'
-import { RangeSetterConfig } from '@schedule-x/shared/src/interfaces/calendar/range-setter-config.interface'
-import { DateRange } from '@schedule-x/shared/src/types/date-range'
+} from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/date-to-strings'
+import { addDays } from '@holitime/schedule-x-shared/src/utils/stateless/time/date-time-mutation/adding'
+import { RangeSetterConfig } from '@holitime/schedule-x-shared/src/interfaces/calendar/range-setter-config.interface'
+import { DateRange } from '@holitime/schedule-x-shared/src/types/date-range'
 
 const getRangeStartGivenDayBoundaries = (
   calendarConfig: CalendarConfigInternal,

@@ -1,11 +1,11 @@
 /* eslint-disable max-lines */
-import { CalendarEventInternal } from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
+import { CalendarEventInternal } from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-event.interface'
 import { useContext, useEffect } from 'preact/hooks'
 import { AppContext } from '../../utils/stateful/app-context'
-import { deepCloneEvent } from '@schedule-x/shared/src/utils/stateless/calendar/deep-clone-event'
-import { dateFromDateTime } from '@schedule-x/shared/src/utils/stateless/time/format-conversion/string-to-string'
-import { DateRange } from '@schedule-x/shared/src/types/date-range'
-import { getTimeGridEventCopyElementId } from '@schedule-x/shared/src/utils/stateless/strings/selector-generators'
+import { deepCloneEvent } from '@holitime/schedule-x-shared/src/utils/stateless/calendar/deep-clone-event'
+import { dateFromDateTime } from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/string-to-string'
+import { DateRange } from '@holitime/schedule-x-shared/src/types/date-range'
+import { getTimeGridEventCopyElementId } from '@holitime/schedule-x-shared/src/utils/stateless/strings/selector-generators'
 import {
   getBorderRadius,
   getWidthToSubtract,
@@ -14,11 +14,11 @@ import useEventInteractions from '../../utils/stateful/hooks/use-event-interacti
 import { getElementByCCID } from '../../utils/stateless/dom/getters'
 import { Fragment } from 'preact'
 import { invokeOnEventClickCallback } from '../../utils/stateless/events/invoke-on-event-click-callback'
-import { getEventCoordinates } from '@schedule-x/shared/src/utils/stateless/dom/get-event-coordinates'
-import { isUIEventTouchEvent } from '@schedule-x/shared/src/utils/stateless/dom/is-touch-event'
-import { getTimeStamp } from '@schedule-x/shared/src/utils/stateless/time/date-time-localization/get-time-stamp'
-import { ResizePlugin } from '@schedule-x/shared/src/interfaces/resize/resize-plugin.interface'
-import { randomStringId } from '@schedule-x/shared/src/utils/stateless/strings/random'
+import { getEventCoordinates } from '@holitime/schedule-x-shared/src/utils/stateless/dom/get-event-coordinates'
+import { isUIEventTouchEvent } from '@holitime/schedule-x-shared/src/utils/stateless/dom/is-touch-event'
+import { getTimeStamp } from '@holitime/schedule-x-shared/src/utils/stateless/time/date-time-localization/get-time-stamp'
+import { ResizePlugin } from '@holitime/schedule-x-shared/src/interfaces/resize/resize-plugin.interface'
+import { randomStringId } from '@holitime/schedule-x-shared/src/utils/stateless/strings/random'
 
 type props = {
   calendarEvent: CalendarEventInternal

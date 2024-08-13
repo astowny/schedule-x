@@ -1,9 +1,9 @@
-import { CalendarEventInternal } from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
+import { CalendarEventInternal } from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-event.interface'
 import { RecurrenceSet } from '../../../../recurrence/src'
 import { parseSXToRFC5545 } from '../../../../recurrence/src/parsers/rrule/parse-rrule'
 import { AugmentedEvent } from '../../types/augmented-event'
-import { deepCloneEvent } from '@schedule-x/shared/src/utils/stateless/calendar/deep-clone-event'
-import { CalendarAppSingleton } from '@schedule-x/shared/src'
+import { deepCloneEvent } from '@holitime/schedule-x-shared/src/utils/stateless/calendar/deep-clone-event'
+import { CalendarAppSingleton } from '@holitime/schedule-x-shared/src'
 
 export const createRecurrencesForEvent = (
   $app: CalendarAppSingleton,

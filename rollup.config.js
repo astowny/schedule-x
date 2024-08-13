@@ -20,6 +20,7 @@ async function getSortedPackages(scope, ignore) {
     '@holitime/schedule-x-theme-default',
     '@schedule-x/eslint-config',
     '@schedule-x/prettier-config',
+    'assertions'
   ]
   filtered = filtered.filter((pkg) => !nonTSPackages.includes(pkg.name))
 
@@ -82,7 +83,6 @@ async function build(commandLineArgs) {
       external: ['preact', 'preact/hooks', 'preact/compat', '@preact/signals', 'preact/src/jsx', 'rrule', 'preact/jsx-runtime'],
     })
   })
-  console.log(config)
 
   return config
 }

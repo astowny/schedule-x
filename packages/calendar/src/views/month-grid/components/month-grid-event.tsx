@@ -1,12 +1,12 @@
-import { CalendarEventInternal } from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
-import { dateFromDateTime } from '@schedule-x/shared/src/utils/stateless/time/format-conversion/string-to-string'
+import { CalendarEventInternal } from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-event.interface'
+import { dateFromDateTime } from '@holitime/schedule-x-shared/src/utils/stateless/time/format-conversion/string-to-string'
 import useEventInteractions from '../../../utils/stateful/hooks/use-event-interactions'
 import { AppContext } from '../../../utils/stateful/app-context'
 import { useContext, useEffect } from 'preact/hooks'
 import { getElementByCCID } from '../../../utils/stateless/dom/getters'
-import { randomStringId } from '@schedule-x/shared/src/utils/stateless/strings/random'
+import { randomStringId } from '@holitime/schedule-x-shared/src/utils/stateless/strings/random'
 import { invokeOnEventClickCallback } from '../../../utils/stateless/events/invoke-on-event-click-callback'
-import { isUIEventTouchEvent } from '@schedule-x/shared/src/utils/stateless/dom/is-touch-event'
+import { isUIEventTouchEvent } from '@holitime/schedule-x-shared/src/utils/stateless/dom/is-touch-event'
 
 type props = {
   gridRow: number

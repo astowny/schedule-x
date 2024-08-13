@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from 'preact/hooks'
 import { AppContext } from '../../utils/stateful/app-context'
-import { ViewName } from '@schedule-x/shared/src/types/calendar/view-name'
-import { View } from '@schedule-x/shared/src/types/calendar/view'
-import { isKeyEnterOrSpace } from '@schedule-x/shared/src/utils/stateless/dom/events'
+import { ViewName } from '@holitime/schedule-x-shared/src/types/calendar/view-name'
+import { View } from '@holitime/schedule-x-shared/src/types/calendar/view'
+import { isKeyEnterOrSpace } from '@holitime/schedule-x-shared/src/utils/stateless/dom/events'
 import { ToggleBtnsViewSelection } from './toggle-btns-view-selection'
 
 interface props {

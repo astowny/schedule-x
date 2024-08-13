@@ -1,10 +1,10 @@
-import PluginBase from '@schedule-x/shared/src/interfaces/plugin.interface'
-import { PluginName } from '@schedule-x/shared/src/enums/plugin-name.enum'
-import CalendarAppSingleton from '@schedule-x/shared/src/interfaces/calendar/calendar-app-singleton'
+import PluginBase from '@holitime/schedule-x-shared/src/interfaces/plugin.interface'
+import { PluginName } from '@holitime/schedule-x-shared/src/enums/plugin-name.enum'
+import CalendarAppSingleton from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-app-singleton'
 import ScrollControllerConfig from './interfaces/config'
-import { timePointsFromString } from '@schedule-x/shared/src/utils/stateless/time/time-points/string-conversion'
+import { timePointsFromString } from '@holitime/schedule-x-shared/src/utils/stateless/time/time-points/string-conversion'
 import { effect } from '@preact/signals'
-import { InternalViewName } from '@schedule-x/shared/src/enums/calendar/internal-view.enum'
+import { InternalViewName } from '@holitime/schedule-x-shared/src/enums/calendar/internal-view.enum'
 
 class ScrollControllerPlugin implements PluginBase {
   name = PluginName.ScrollController

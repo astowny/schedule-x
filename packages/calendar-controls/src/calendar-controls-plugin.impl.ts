@@ -1,8 +1,8 @@
-import CalendarControlsPlugin from '@schedule-x/shared/src/interfaces/calendar-controls/calendar-controls-plugin.interface'
-import { CalendarAppSingleton } from '@schedule-x/shared/src'
-import { PluginName } from '@schedule-x/shared/src/enums/plugin-name.enum'
-import { dateStringRegex } from '@schedule-x/shared/src/utils/stateless/time/validation/regex'
-import { DateRange } from '@schedule-x/shared/src/types/date-range'
+import CalendarControlsPlugin from '@holitime/schedule-x-shared/src/interfaces/calendar-controls/calendar-controls-plugin.interface'
+import { CalendarAppSingleton } from '@holitime/schedule-x-shared/src'
+import { PluginName } from '@holitime/schedule-x-shared/src/enums/plugin-name.enum'
+import { dateStringRegex } from '@holitime/schedule-x-shared/src/utils/stateless/time/validation/regex'
+import { DateRange } from '@holitime/schedule-x-shared/src/types/date-range'
 
 export type { CalendarControlsPlugin }
 

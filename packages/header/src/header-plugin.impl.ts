@@ -1,5 +1,5 @@
-import { PluginName } from '@schedule-x/shared/src/enums/plugin-name.enum'
-import HeaderPlugin from '@schedule-x/shared/src/interfaces/calendar/calendar-header.interface'
+import { PluginName } from '@holitime/schedule-x-shared/src/enums/plugin-name.enum'
+import HeaderPlugin from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-header.interface'
 import { signal } from '@preact/signals'
 
 export const createHeaderPlugin = () // setIsOpen: (value: boolean) => void

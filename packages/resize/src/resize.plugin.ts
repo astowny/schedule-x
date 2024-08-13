@@ -1,8 +1,8 @@
-import { CalendarAppSingleton } from '@schedule-x/shared/src'
-import { CalendarEventInternal } from '@schedule-x/shared/src/interfaces/calendar/calendar-event.interface'
+import { CalendarAppSingleton } from '@holitime/schedule-x-shared/src'
+import { CalendarEventInternal } from '@holitime/schedule-x-shared/src/interfaces/calendar/calendar-event.interface'
 import { TimeGridEventResizer } from './time-grid-event-resizer'
-import { ResizePlugin } from '@schedule-x/shared/src/interfaces/resize/resize-plugin.interface'
-import { PluginName } from '@schedule-x/shared/src/enums/plugin-name.enum'
+import { ResizePlugin } from '@holitime/schedule-x-shared/src/interfaces/resize/resize-plugin.interface'
+import { PluginName } from '@holitime/schedule-x-shared/src/enums/plugin-name.enum'
 import { DateGridEventResizer } from './date-grid-event-resizer'
 
 class ResizePluginImpl implements ResizePlugin {

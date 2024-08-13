@@ -1,5 +1,5 @@
-import { InvalidLocaleError } from '@schedule-x/shared/src/utils/stateless/errors/InvalidLocale.error'
-import { TranslationVariables } from '@schedule-x/shared/src/types/translations'
+import { InvalidLocaleError } from '@holitime/schedule-x-shared/src/utils/stateless/errors/InvalidLocale.error'
+import { TranslationVariables } from '@holitime/schedule-x-shared/src/types/translations'
 
 export const translate =
   (locale: string, languages: Record<string, object>) =>

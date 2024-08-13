@@ -1,6 +1,6 @@
 import { useContext } from 'preact/hooks'
 import { AppContext } from '../../utils/stateful/app-context'
-import { InternalViewName } from '@schedule-x/shared/src/enums/calendar/internal-view.enum'
+import { InternalViewName } from '@holitime/schedule-x-shared/src/enums/calendar/internal-view.enum'
 
 export const ToggleBtnsViewSelection = () => {
   const $app = useContext(AppContext)
